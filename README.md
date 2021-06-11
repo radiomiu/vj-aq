@@ -3,6 +3,7 @@
 This web page prototype supports both English and Hindi languages.
 For further improvements I'd like to add:
 - tests
+- filterable select with autosuggestions
 - interactive SVG map of India, with tooltips on hover over the specified region, or city.
 Regions could be coloured according to the median AQ in this location. 
 - maybe, some polyfills support for IE, although I didnt use anything specific.

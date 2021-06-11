@@ -21,6 +21,7 @@
 *.xml
 *.yml
 
+.idea/
 
 npm-debug.log*
 yarn-debug.log*
