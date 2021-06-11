@@ -3,19 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.13.13",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
+    "react": ">=16",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "eslintConfig": {
     "extends": [
@@ -26,7 +28,6 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
       "not op_mini all"
     ],
     "development": [
@@ -34,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "author": "radiomiu <radiomiu@gmail.com>",
+  "license": "MIT"
 }

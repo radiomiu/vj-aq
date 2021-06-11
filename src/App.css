@@ -1,38 +1,75 @@
-.App {
+html, body {
+  margin: 0;
+  height: 100%;
+}
+.main {
+  max-width: 63rem;
+}
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper > * {
+  padding: 20px;
+  flex: 1 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  max-width:100%;
+  height:auto;
+  max-height:100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+span {
+  display: inline-block;
+  width: 80px
+}
+.cig {
+  display: inline-block;
+  height: 36px;
+  background: repeat-x url('https://raw.githubusercontent.com/bbc/vj-code-tests/master/airquality/src/img/ciggrette_icon.png');
+  background-size: 10px auto;
 }
 
-.App-link {
-  color: #61dafb;
+.cig-1 {width: 10px}
+.cig-2 {width: 20px}
+.cig-3 {width: 30px}
+.cig-4 {width: 40px}
+.cig-5 {width: 50px}
+.cig-6 {width: 60px}
+.cig-7 {width: 70px}
+.cig-8 {width: 80px}
+.cig-9 {width: 90px}
+.cig-10 {width: 100px}
+.cig-11 {width: 110px}
+.cig-12 {width: 120px}
+
+.header-1 {
+  font-family: ReithSans,Helvetica,Arial,sans-serif;
+  font-size: 2.75rem;
+  line-height: 3rem;
+  font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-2 {
+  font-family: ReithSans,Helvetica,Arial,sans-serif;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.header-3 {
+  font-family: ReithSans,Helvetica,Arial,sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.author {
+  font-family: ReithSans,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
